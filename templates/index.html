@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Anagram Lookup</title>
+        <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css" />
+        <script src="../assets/js/search.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <br>
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class ="span12">
+                    <div class="span3"><input class="span12" id="ana" type="text" placeholder="Your word or sentence without spaces"></div>
+                    <div class="span2"><button class="btn-warning btn-small" onclick="anagrams()">Find Anagrams</button></div>
+                    <div class="span5">
+                    <i style="color:red;"><b>Note:</b> Try to keep input less than 10 characters or we may hang up!</i><br>
+                    <i style="color:red;"><b>Another Note:</b> If nothing shows up for long, assume we couldn't find any anagram!</i>
+                    </div>
+                    <div class="span2"><i>Created by: <a target="_blank" href="https://www.facebook.com/aseem.wizhack">Aseem Raj</a></i></div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" id="response"></div>
+    </body>
+</html>
